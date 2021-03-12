@@ -15,5 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c')
+WebUI.openBrowser('https://gdasandbox.test-arcadier.com/')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Item Details Objects/Page_diagnostics/a_Accept Cookies'))
+
+WebUI.mouseOver(findTestObject('Page_diagnostics/FirstItem'))
+
+WebUI.click(findTestObject('Page_diagnostics/FirstItem'))
 

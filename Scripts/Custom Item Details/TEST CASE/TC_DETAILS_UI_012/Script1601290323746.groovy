@@ -23,8 +23,6 @@ WebUI.verifyElementClickable(findTestObject('Item Details Objects/Page_diagnosti
 
 WebUI.verifyElementText(findTestObject('Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies'), 'PROCURE FROM OTHER AGENCIES')
 
-WebUI.click(findTestObject('Item Details Objects/Page_diagnostics/a_Accept Cookies'))
-
 WebUI.click(findTestObject('Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies'))
 
 WebUI.callTestCase(findTestCase('Custom Item Details/UTILITIES/CLOSE_BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)

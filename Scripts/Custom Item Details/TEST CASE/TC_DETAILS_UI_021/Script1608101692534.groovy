@@ -19,10 +19,6 @@ WebUI.callTestCase(findTestCase('Custom Item Details/UTILITIES/OPEN_BROWSER'), [
 
 WebUI.callTestCase(findTestCase('Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Item Details Objects/Page_diagnostics/a_Accept Cookies'), 0)
-
-WebUI.click(findTestObject('Item Details Objects/Page_diagnostics/a_Accept Cookies'))
-
 WebUI.waitForElementVisible(findTestObject('Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller'), 0)
 
 WebUI.verifyElementClickable(findTestObject('Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller'))

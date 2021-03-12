@@ -17,10 +17,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Custom Item Details/UTILITIES/OPEN_BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Item Details Objects/Page_diagnostics/a_Accept Cookies'), 0)
-
-WebUI.click(findTestObject('Item Details Objects/Page_diagnostics/a_Accept Cookies'))
-
 WebUI.waitForElementVisible(findTestObject('Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller'), 0)
 
 WebUI.click(findTestObject('Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller'))
@@ -35,7 +31,7 @@ WebUI.click(findTestObject('Item Details Objects/Page_diagnostics/a_Procure_Dire
 
 WebUI.verifyElementPresent(findTestObject('Cart/Page_diagnostics/div_VIEW_CART_Area'), 0)
 
-WebUI.mouseOver(findTestObject('Item Details Objects/Page_diagnostics/a_Cart_visible-xs'))
+WebUI.verifyElementClickable(findTestObject('Page_diagnostics/Cart_icon'))
 
 WebUI.callTestCase(findTestCase('Custom Item Details/UTILITIES/CLOSE_BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)
 

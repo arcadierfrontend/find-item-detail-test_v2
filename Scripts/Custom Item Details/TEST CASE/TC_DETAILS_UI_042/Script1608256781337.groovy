@@ -17,10 +17,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Custom Item Details/UTILITIES/OPEN_BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Item Details Objects/Page_diagnostics/a_Accept Cookies'), 0)
-
-WebUI.click(findTestObject('Item Details Objects/Page_diagnostics/a_Accept Cookies'))
-
 WebUI.verifyElementPresent(findTestObject('Item Details Objects/Page_diagnostics/div_Price_Box'), 0)
 
 WebUI.verifyElementNotVisible(findTestObject('Item Details Objects/Page_diagnostics/div_Price_Box'), FailureHandling.STOP_ON_FAILURE)
