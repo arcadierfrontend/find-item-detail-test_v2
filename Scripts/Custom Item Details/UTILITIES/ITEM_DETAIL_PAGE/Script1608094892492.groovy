@@ -15,5 +15,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5')
+WebUI.navigateToUrl('https://diagnostics.staging.arcadier.io/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5')
 
