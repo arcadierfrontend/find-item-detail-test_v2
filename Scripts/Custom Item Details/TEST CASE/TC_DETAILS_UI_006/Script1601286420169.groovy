@@ -21,7 +21,7 @@ WebUI.waitForElementVisible(findTestObject('Item Details Objects/Page_diagnostic
 
 WebUI.verifyElementClickable(findTestObject('Item Details Objects/Page_diagnostics/a_Contact_seller_btn'))
 
-WebUI.verifyElementText(findTestObject('Item Details Objects/Page_diagnostics/a_Contact_seller_btn'), 'CONTACT SELLER')
+WebUI.verifyElementText(findTestObject('Item Details Objects/Page_diagnostics/a_Contact_seller_btn'), 'ASK THE SELLER')
 
 WebUI.callTestCase(findTestCase('Custom Item Details/UTILITIES/CLOSE_BROWSER'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -21,7 +21,9 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Item Details Objects/Page_diagnostics/a_Accept Cookies'))
 
-WebUI.mouseOver(findTestObject('Page_diagnostics/FirstItem'))
+WebUI.click(findTestObject('Staging Objects/Page_diagnostics/a_DIABETES DIAGNOSTICS'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_diagnostics/FirstItem'))
+WebUI.mouseOver(findTestObject('Staging Objects/Page_diagnostics/a_CareSens N Eco Blood Glucose Meter'))
+
+WebUI.click(findTestObject('Staging Objects/Page_diagnostics/a_CareSens N Eco Blood Glucose Meter'))
 
