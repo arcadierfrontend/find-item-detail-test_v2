@@ -11,10 +11,13 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Sample type:' or . = 'Sample type:')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tab-desc3&quot;)/div[@class=&quot;h-body&quot;]/div[@class=&quot;desc-sec-opt&quot;]/span[@class=&quot;bold-black-text&quot;]</value>
+      <value>id(&quot;tab-desc4&quot;)/div[@class=&quot;h-body&quot;]/div[@class=&quot;desc-sec-opt&quot;]/span[@class=&quot;bold-black-text&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

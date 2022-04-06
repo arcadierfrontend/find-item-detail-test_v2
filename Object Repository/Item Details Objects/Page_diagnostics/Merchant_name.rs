@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.merchant-name2 > a</value>
+         <value>div.merchant-name2  a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

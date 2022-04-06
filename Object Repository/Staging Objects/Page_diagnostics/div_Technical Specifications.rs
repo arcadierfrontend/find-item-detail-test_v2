@@ -11,10 +11,14 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#tab-desc3 > div.desc-title</value>
+         <value>#tab-desc4 > div.desc-title</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Technical Specifications' or . = 'Technical Specifications')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -21,9 +21,9 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Item Details Objects/Page_diagnostics/a_Accept Cookies'))
 
-WebUI.click(findTestObject('Staging Objects/Page_diagnostics/a_DIABETES DIAGNOSTICS'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('New_Homepage/Page_diagnostics/a_COVID-19 DIAGNOSTICS'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Staging Objects/Page_diagnostics/a_CareSens N Eco Blood Glucose Meter'))
+WebUI.mouseOver(findTestObject('New_Homepage/Page_diagnostics/a_Abbott Rapid Diagnostics PANBIO COVID-19 Ag Rapid Test Device (Nasopharyngeal)'))
 
-WebUI.click(findTestObject('Staging Objects/Page_diagnostics/a_CareSens N Eco Blood Glucose Meter'))
+WebUI.click(findTestObject('New_Homepage/Page_diagnostics/a_Abbott Rapid Diagnostics PANBIO COVID-19 Ag Rapid Test Device (Nasopharyngeal)'))
 

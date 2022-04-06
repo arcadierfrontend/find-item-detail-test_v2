@@ -4,6 +4,7 @@
    <name>div_Description</name>
    <tag></tag>
    <elementGuidId>cb194008-fc6f-40f5-a088-97d442ad2723</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,10 +12,18 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#tab-desc2 > div.desc-title</value>
+         <value>#tab-desc2>div.desc-title</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Description' or . = 'Description')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

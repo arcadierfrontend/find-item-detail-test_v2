@@ -305,4 +305,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_049</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ab93b234-8059-4363-9eae-96864ce0e95c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_050</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1b92115e-c610-42ed-9aec-1a99f5be155b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_051</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
